@@ -1,0 +1,10 @@
+# dsh-tab-status-light bundle patch.
+#
+# One Host row is needed so the bundle is a real Loader entry; the Host half is
+# a no-op. All behavior lives in the browser half (./client.js), which registers
+# a null-rendering occupant in `shell.overlay` and drives the document favicon
+# from the Client session-status source.
+
+- insert:
+    - id: tab-status-light
+      name: dsh-tab-status-light

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tab Status Light",
+    "description": "Recolors the DSH whale on the browser tab by session state — only the glyph's fill changes, never the tab background: assistant-event violet while generating, amber while a question or approval waits for you, green after output finishes in the background. Concurrent states split the whale into left-to-right color bands (reply / running / done); the original white/black icon only appears when no state is active."
+  }
+}
